@@ -73,5 +73,7 @@
 
 
 #### Blockers:
+- When trying the User data that works on AWS, the shell script won't run. (Fixed)
+  - So when you try to upgrade a manual input is required 
 - Setting up the db vm, connecting to the app vm, post page was empty (Fixed)
     - In the app instance, `node seeds/seed.js` and `npm install`. This is to reload the seed set in db.
