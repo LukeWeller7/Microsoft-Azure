@@ -69,3 +69,4 @@ There are 4 main stages to the structure of Azure, starting from the bottom is t
   - Azure (AZ) - max of 3 availability zones
 - The private subnet has access to internet to update on VM on Azure
 - Azure has a set of default nsg rules that will allow all internal traffic unless stated otherwise.
+- Azure Container is equivalent to AWS bucket.
