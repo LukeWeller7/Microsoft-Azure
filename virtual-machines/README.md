@@ -77,3 +77,5 @@
   - So when you try to upgrade a manual input is required 
 - Setting up the db vm, connecting to the app vm, post page was empty (Fixed)
     - In the app instance, `node seeds/seed.js` and `npm install`. This is to reload the seed set in db.
+- When using User data the pm2 process will be run as root user and won't show running when ssh in. (Fixed)
+  - You can terminate the pm2 process and re-run as user with the command `sudo kill <proccess ID>` you can find the ID number with the command `pm2 aux`
