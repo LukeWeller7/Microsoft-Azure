@@ -3,8 +3,8 @@ This guide shows you how to set up your database instance such that it provides 
 1. Go to your db Virtual Machine
 2. In settings select Networking
 3. set up the following rules
-![](images/nsg-setup.png)
+![](../images/nsg-setup.png)
 
 ## Example set-up
 
-![](images/nsg-example.png)
+![](../images/nsg-example.png)
